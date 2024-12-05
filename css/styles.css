@@ -1,0 +1,39 @@
+:root {
+    --primary-color: #0054AA;
+    --secondary-color: #0677BA;
+    --accent-color: #7BADD7;
+    --background-color: #CADEEF;
+    --text-color: #0054AA;
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .logo {
+    width: 100px;
+  }
+  
+  .navbar {
+    background-color: var(--primary-color);
+  }
+  
+  .nav-link {
+    color: var(--secondary-color);
+  }
+  
+  .nav-link:hover {
+    color: var(--accent-color);
+  }
+  
+  header, footer {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
